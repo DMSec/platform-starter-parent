@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>br.com.dmsec</groupId>
-        <artifactId>starters</artifactId>
+        <artifactId>platform-starters</artifactId>
         <version>${revision}</version>
     </parent>
 
     <artifactId>starter-logging</artifactId>
-    <name>Platform Starter Logging</name>
-    <description>Platform Starter logging</description>
+    <name>Starter Logging</name>
+    <description>Starter logging</description>
     <properties>
         <main.basedir>${basedir}/../../</main.basedir>
     </properties>

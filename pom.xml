@@ -13,6 +13,8 @@
     <artifactId>platform-starter-parent</artifactId>
     <version>${revision}</version>
     <packaging>pom</packaging>
+    <name>Platform Starter Parent</name>
+    <description>Platform Starter Parent</description>
 
     <properties>
         <revision>0.1.0-SNAPSHOT</revision>
