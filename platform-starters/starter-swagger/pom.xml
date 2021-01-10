@@ -16,10 +16,7 @@
 
 
     <dependencies>
-        <dependency>
-            <groupId>br.com.dmsec</groupId>
-            <artifactId>starter-commons</artifactId>
-        </dependency>
+
 
         <dependency>
             <groupId>io.springfox</groupId>

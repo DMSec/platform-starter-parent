@@ -90,19 +90,6 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-  <pluginRepositories>
-    <pluginRepository>
-      <releases>
-        <enabled>true</enabled>
-      </releases>
-      <snapshots>
-        <enabled>false</enabled>
-      </snapshots>
-      <id>bintray.kotlin.eap</id>
-      <name>Bintray Kotlin EAP Repository</name>
-      <url>https://dl.bintray.com/kotlin/kotlin-eap</url>
-    </pluginRepository>
-  </pluginRepositories>
   <build>
     <pluginManagement>
       <plugins>
