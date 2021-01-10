@@ -9,7 +9,6 @@
         <version>${revision}</version>
     </parent>
 
-    <groupId>br.com.dmsec</groupId>
     <artifactId>starter-commons</artifactId>
     <packaging>jar</packaging>
     <name>Starter Commons</name>
