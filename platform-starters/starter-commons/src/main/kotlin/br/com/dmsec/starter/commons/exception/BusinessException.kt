@@ -40,4 +40,4 @@ class BusinessException private constructor(
             ) {
         this.log = applicationLog
     }
-}
+}BusinessException
