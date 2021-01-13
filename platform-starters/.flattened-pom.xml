@@ -24,6 +24,7 @@
     <module>starter-logging</module>
     <module>starter-swagger</module>
     <module>starter-exception-handler</module>
+    <module>starter-prometheus</module>
     <module>starter-web</module>
   </modules>
   <properties>

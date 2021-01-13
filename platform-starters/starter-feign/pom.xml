@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>br.com.dmsec</groupId>
+        <artifactId>platform-starters</artifactId>
+        <version>${revision}</version>
+    </parent>
+
+    <artifactId>starter-feign</artifactId>
+    <name>Starter Feign</name>
+    <description>Starter Feign</description>
+
+    <properties>
+        <main.basedir>${basedir}/../../</main.basedir>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>br.com.dmsec</groupId>
+            <artifactId>starter-context</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-jackson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-httpclient</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>br.com.dmsec</groupId>
+            <artifactId>starter-commons</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+    </dependencies>
+
+
+</project>
