@@ -30,19 +30,19 @@
         <dependency>
             <groupId>br.com.dmsec</groupId>
             <artifactId>starter-exception-handler</artifactId>
-            <version>${version}</version>
+            <version>${revision}</version>
         </dependency>
 
         <dependency>
             <groupId>br.com.dmsec</groupId>
             <artifactId>starter-swagger</artifactId>
-            <version>${version}</version>
+            <version>${revision}</version>
         </dependency>
 
         <dependency>
             <groupId>br.com.dmsec</groupId>
             <artifactId>starter-commons</artifactId>
-            <version>${version}</version>
+            <version>${revision}</version>
         </dependency>
 
 
