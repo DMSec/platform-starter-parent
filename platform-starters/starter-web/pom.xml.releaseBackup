@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <artifactId>platform-starters</artifactId>
+        <groupId>br.com.dmsec</groupId>
+        <version>${revision}</version>
+    </parent>
+
+
+    <artifactId>starter-web</artifactId>
+    <name>Starter Web</name>
+    <description>Starter Web</description>
+    <properties>
+        <main.basedir>${basedir}/../../</main.basedir>
+    </properties>
+
+    <dependencies>
+       <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+       </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>br.com.dmsec</groupId>
+            <artifactId>starter-exception-handler</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>br.com.dmsec</groupId>
+            <artifactId>starter-swagger</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>br.com.dmsec</groupId>
+            <artifactId>starter-commons</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+
+        <!-- Incluir tracing -->
+
+        <!-- Incluir Context -->
+        <dependency>
+            <groupId>br.com.dmsec</groupId>
+            <artifactId>starter-context</artifactId>
+            <version>${revision}</version>
+        </dependency>
+
+    </dependencies>
+
+
+
+</project>
