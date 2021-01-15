@@ -26,6 +26,7 @@
     <module>starter-exception-handler</module>
     <module>starter-prometheus</module>
     <module>starter-context</module>
+    <module>starter-tracing</module>
     <module>starter-feign</module>
     <module>starter-web</module>
   </modules>

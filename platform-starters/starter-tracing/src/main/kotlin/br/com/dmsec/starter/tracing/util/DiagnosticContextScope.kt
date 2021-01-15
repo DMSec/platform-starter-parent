@@ -49,5 +49,5 @@ class DiagnosticContextScope private constructor(
             mdcReplace(key, e.value)
         }
     }
-    
+
 }
