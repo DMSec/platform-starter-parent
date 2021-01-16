@@ -1,3 +1,3 @@
 # platform-starter-parent
 
-The first publication
+The second publication
