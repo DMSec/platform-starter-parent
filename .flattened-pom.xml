@@ -59,7 +59,6 @@
     <java.version>11</java.version>
     <logstash-logback-encoder.version>6.3</logstash-logback-encoder.version>
     <org.json.version>20200518</org.json.version>
-    <revision>0.3.0</revision>
     <spring-cloud-starter-aws.version>2.2.5.RELEASE</spring-cloud-starter-aws.version>
   </properties>
   <dependencyManagement>
