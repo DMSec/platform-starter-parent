@@ -34,7 +34,6 @@
   <scm>
     <connection>scm:git:git@github.com:DMSec/platform-starter-parent.git</connection>
     <developerConnection>scm:git:git@github.com:DMSec/platform-starter-parent.git</developerConnection>
-    <tag>platform-starter-parent-0.3.0</tag>
     <url>git@github.com:DMSec/platform-starter-parent.git</url>
   </scm>
   <issueManagement>
