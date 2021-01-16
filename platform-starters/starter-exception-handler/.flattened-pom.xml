@@ -5,11 +5,11 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starters</artifactId>
-    <version>0.3.0</version>
+    <version>0.1.1-SNAPSHOT</version>
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-exception-handler</artifactId>
-  <version>0.3.0</version>
+  <version>0.1.1-SNAPSHOT</version>
   <name>Starter Exception Handler</name>
   <description>Starter Exception Handler</description>
   <licenses>
@@ -25,7 +25,7 @@
     <dependency>
       <groupId>br.com.dmsec</groupId>
       <artifactId>starter-commons</artifactId>
-      <version>0.3.0</version>
+      <version>0.1.1-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
     <dependency>

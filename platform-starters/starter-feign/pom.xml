@@ -20,7 +20,7 @@
         <dependency>
             <groupId>br.com.dmsec</groupId>
             <artifactId>starter-context</artifactId>
-            <version>${revision}</version>
+            <version>0.1.1-SNAPSHOT</version>
         </dependency>
 
         <dependency>
@@ -56,7 +56,7 @@
         <dependency>
             <groupId>br.com.dmsec</groupId>
             <artifactId>starter-commons</artifactId>
-            <version>${revision}</version>
+            <version>0.1.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>

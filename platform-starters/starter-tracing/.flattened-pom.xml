@@ -5,11 +5,11 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starters</artifactId>
-    <version>0.3.0</version>
+    <version>0.1.1-SNAPSHOT</version>
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-tracing</artifactId>
-  <version>0.3.0</version>
+  <version>0.1.1-SNAPSHOT</version>
   <name>Starter Tracing</name>
   <description>Starter Tracing</description>
   <licenses>

@@ -5,11 +5,11 @@
   <parent>
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starters</artifactId>
-    <version>0.3.0</version>
+    <version>0.1.1-SNAPSHOT</version>
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>starter-feign</artifactId>
-  <version>0.3.0</version>
+  <version>0.1.1-SNAPSHOT</version>
   <name>Starter Feign</name>
   <description>Starter Feign</description>
   <licenses>
@@ -25,7 +25,7 @@
     <dependency>
       <groupId>br.com.dmsec</groupId>
       <artifactId>starter-context</artifactId>
-      <version>0.3.0</version>
+      <version>0.1.1-SNAPSHOT</version>
     </dependency>
     <dependency>
       <groupId>org.springframework.cloud</groupId>
@@ -54,7 +54,7 @@
     <dependency>
       <groupId>br.com.dmsec</groupId>
       <artifactId>starter-commons</artifactId>
-      <version>0.3.0</version>
+      <version>0.1.1-SNAPSHOT</version>
     </dependency>
   </dependencies>
 </project>

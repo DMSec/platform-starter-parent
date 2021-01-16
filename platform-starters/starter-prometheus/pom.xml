@@ -46,7 +46,7 @@
         <dependency>
             <groupId>br.com.dmsec</groupId>
             <artifactId>starter-commons</artifactId>
-            <version>${revision}</version>
+            <version>0.1.1-SNAPSHOT</version>
         </dependency>
 
     </dependencies>
