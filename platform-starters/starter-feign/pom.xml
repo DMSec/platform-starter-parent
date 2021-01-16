@@ -5,7 +5,7 @@
     <parent>
         <groupId>br.com.dmsec</groupId>
         <artifactId>platform-starters</artifactId>
-        <version>0.3.0</version>
+        <version>0.1.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>starter-feign</artifactId>
