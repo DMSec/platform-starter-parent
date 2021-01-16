@@ -9,7 +9,7 @@
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>platform-starter-parent</artifactId>
-  <version>0.3.0-SNAPSHOT</version>
+  <version>0.3.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Platform Starter Parent</name>
   <description>Platform Starter Parent</description>
@@ -34,7 +34,7 @@
   <scm>
     <connection>scm:git:git@github.com:DMSec/platform-starter-parent.git</connection>
     <developerConnection>scm:git:git@github.com:DMSec/platform-starter-parent.git</developerConnection>
-    <tag>platform-starter-parent-0.1.0</tag>
+    <tag>platform-starter-parent-0.3.0</tag>
     <url>git@github.com:DMSec/platform-starter-parent.git</url>
   </scm>
   <issueManagement>
@@ -230,7 +230,7 @@
         <plugins>
           <plugin>
             <artifactId>maven-gpg-plugin</artifactId>
-            <version>1.5</version>
+            <version>${maven-gpg-plugin.version}</version>
             <executions>
               <execution>
                 <id>sign-artifacts</id>
@@ -239,8 +239,8 @@
                   <goal>sign</goal>
                 </goals>
                 <configuration>
-                  <homedir>/home/douglasmsi/.gnupg</homedir>
-                  <passphrase>S1st3m@sh@ck3r</passphrase>
+                  <homedir>${gpg.homedir}</homedir>
+                  <passphrase>${gpg.passphrase}</passphrase>
                 </configuration>
               </execution>
             </executions>
