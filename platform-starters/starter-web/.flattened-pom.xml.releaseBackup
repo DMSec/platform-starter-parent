@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>br.com.dmsec</groupId>
+    <artifactId>platform-starters</artifactId>
+    <version>0.1.1-SNAPSHOT</version>
+  </parent>
+  <groupId>br.com.dmsec</groupId>
+  <artifactId>starter-web</artifactId>
+  <version>0.1.1-SNAPSHOT</version>
+  <name>Starter Web</name>
+  <description>Starter Web</description>
+  <licenses>
+    <license>
+      <name>GNU Lesser General Public License</name>
+      <url>http://www.gnu.org/licenses/lgpl-2.1.txt</url>
+    </license>
+  </licenses>
+  <properties>
+    <main.basedir>${basedir}/../../</main.basedir>
+  </properties>
+  <dependencies>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>br.com.dmsec</groupId>
+      <artifactId>starter-exception-handler</artifactId>
+      <version>0.1.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>br.com.dmsec</groupId>
+      <artifactId>starter-swagger</artifactId>
+      <version>0.1.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>br.com.dmsec</groupId>
+      <artifactId>starter-commons</artifactId>
+      <version>0.1.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>br.com.dmsec</groupId>
+      <artifactId>starter-tracing</artifactId>
+      <version>0.1.1-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>br.com.dmsec</groupId>
+      <artifactId>starter-context</artifactId>
+      <version>0.1.1-SNAPSHOT</version>
+    </dependency>
+  </dependencies>
+</project>
