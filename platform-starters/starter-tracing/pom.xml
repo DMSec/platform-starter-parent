@@ -5,7 +5,7 @@
     <parent>
         <artifactId>platform-starters</artifactId>
         <groupId>br.com.dmsec</groupId>
-        <version>${revision}</version>
+        <version>0.1.1-SNAPSHOT</version>
     </parent>
 
 

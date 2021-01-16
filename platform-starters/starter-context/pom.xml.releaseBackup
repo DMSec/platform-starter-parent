@@ -5,12 +5,12 @@
     <parent>
         <groupId>br.com.dmsec</groupId>
         <artifactId>platform-starters</artifactId>
-        <version>0.1.1-SNAPSHOT</version>
+        <version>0.3.0</version>
     </parent>
 
-    <artifactId>starter-exception-handler</artifactId>
-    <name>Starter Exception Handler</name>
-    <description>Starter Exception Handler</description>
+    <artifactId>starter-context</artifactId>
+    <name>Starter Context</name>
+    <description>Starter Context</description>
     <properties>
         <main.basedir>${basedir}/../../</main.basedir>
     </properties>
@@ -19,34 +19,24 @@
 
         <dependency>
             <groupId>br.com.dmsec</groupId>
-            <artifactId>starter-commons</artifactId>
-            <version>0.1.1-SNAPSHOT</version>
-            <scope>provided</scope>
+            <artifactId>starter-logging</artifactId>
+            <version>${revision}</version>
         </dependency>
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-webmvc</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-annotations</artifactId>
-            <scope>provided</scope>
-        </dependency>
-
-        <dependency>
-            <groupId>org.junit.jupiter</groupId>
-            <artifactId>junit-jupiter</artifactId>
-        </dependency>
-
         <dependency>
             <groupId>javax.servlet</groupId>
             <artifactId>javax.servlet-api</artifactId>
+            <optional>true</optional>
+        </dependency>
+
+        <dependency>
+            <groupId>io.opentracing.contrib</groupId>
+            <artifactId>opentracing-spring-cloud-starter</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-autoconfigure</artifactId>
+            <artifactId>spring-boot</artifactId>
+            <optional>true</optional>
         </dependency>
 
         <dependency>
