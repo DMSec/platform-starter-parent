@@ -9,7 +9,7 @@
   </parent>
   <groupId>br.com.dmsec</groupId>
   <artifactId>platform-starter-parent</artifactId>
-  <version>0.2.0</version>
+  <version>0.3.0-SNAPSHOT</version>
   <packaging>pom</packaging>
   <name>Platform Starter Parent</name>
   <description>Platform Starter Parent</description>
@@ -34,7 +34,7 @@
   <scm>
     <connection>scm:git:git@github.com:DMSec/platform-starter-parent.git</connection>
     <developerConnection>scm:git:git@github.com:DMSec/platform-starter-parent.git</developerConnection>
-    <tag>platform-starter-parent-0.2.0</tag>
+    <tag>platform-starter-parent-0.1.0</tag>
     <url>git@github.com:DMSec/platform-starter-parent.git</url>
   </scm>
   <issueManagement>
@@ -42,31 +42,26 @@
     <url>https://github.com/DMSec/platform-starter-parent/issues</url>
   </issueManagement>
   <properties>
+    <opentracing-util.version>0.33.0</opentracing-util.version>
     <kotlin.version>1.4.30-M1</kotlin.version>
     <maven-gpg-plugin.version>1.5</maven-gpg-plugin.version>
+    <opentracing-spring-jaeger-starter.version>2.0.3</opentracing-spring-jaeger-starter.version>
     <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
-    <maven-javadoc-plugin.version>2.9.1</maven-javadoc-plugin.version>
     <project.build.sourceEnconding>UTF-8</project.build.sourceEnconding>
+    <swagger.version>2.9.2</swagger.version>
+    <jaeger-client.version>0.35.5</jaeger-client.version>
     <mockito-kotlin.version>2.2.0</mockito-kotlin.version>
+    <opentracing-spring-jaeger-cloud-starter.version>2.0.3</opentracing-spring-jaeger-cloud-starter.version>
     <logback-jackson.version>0.1.5</logback-jackson.version>
     <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
     <opentracing-aws-sdk-1.version>0.1.5</opentracing-aws-sdk-1.version>
     <logback-json-classic.version>0.1.5</logback-json-classic.version>
-    <maven-compiler-plugin.version>3.5.1</maven-compiler-plugin.version>
-    <logstash-logback-encoder.version>6.3</logstash-logback-encoder.version>
-    <org.json.version>20200518</org.json.version>
-    <revision>0.2.0</revision>
-    <spring-cloud-starter-aws.version>2.2.5.RELEASE</spring-cloud-starter-aws.version>
-    <maven-resources-plugin.version>2.5</maven-resources-plugin.version>
-    <opentracing-util.version>0.33.0</opentracing-util.version>
-    <maven-source-plugin.version>2.2.1</maven-source-plugin.version>
-    <maven-release-plugin.version>2.5.2</maven-release-plugin.version>
-    <opentracing-spring-jaeger-starter.version>2.0.3</opentracing-spring-jaeger-starter.version>
-    <swagger.version>2.9.2</swagger.version>
-    <jaeger-client.version>0.35.5</jaeger-client.version>
-    <opentracing-spring-jaeger-cloud-starter.version>2.0.3</opentracing-spring-jaeger-cloud-starter.version>
     <opentracing-spring-cloud-starter.version>0.3.8</opentracing-spring-cloud-starter.version>
     <java.version>11</java.version>
+    <logstash-logback-encoder.version>6.3</logstash-logback-encoder.version>
+    <org.json.version>20200518</org.json.version>
+    <revision>0.3.0</revision>
+    <spring-cloud-starter-aws.version>2.2.5.RELEASE</spring-cloud-starter-aws.version>
   </properties>
   <dependencyManagement>
     <dependencies>
