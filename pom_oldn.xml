@@ -9,9 +9,10 @@
         <version>2.4.1</version>
     </parent>
 
+
     <groupId>br.com.dmsec</groupId>
     <artifactId>platform-starter-parent</artifactId>
-    <version>${revision}</version>
+    <version>0.2.0</version>
     <packaging>pom</packaging>
     <name>Platform Starter Parent</name>
     <description>Platform Starter Parent</description>
@@ -31,7 +32,7 @@
         <url>git@github.com:DMSec/platform-starter-parent.git</url>
         <connection>scm:git:git@github.com:DMSec/platform-starter-parent.git</connection>
         <developerConnection>scm:git:git@github.com:DMSec/platform-starter-parent.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>platform-starter-parent-0.1.0</tag>
     </scm>
 
     <licenses>
@@ -49,7 +50,7 @@
 
     <properties>
 
-        <revision>0.1.0-SNAPSHOT</revision>
+        <revision>0.2.0</revision>
         <java.version>11</java.version>
         <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
         <spring-cloud-starter-aws.version>2.2.5.RELEASE</spring-cloud-starter-aws.version>
@@ -314,7 +315,30 @@
                 <version>1.2.5</version>
                 <inherited>true</inherited>
                 <executions>
-
+                    <execution>
+                        <id>flatten</id>
+                        <phase>process-resources</phase>
+                        <goals>
+                            <goal>flatten</goal>
+                        </goals>
+                        <configuration>
+                            <updatePomFile>true</updatePomFile>
+                            <flattenMode>resolveCiFriendliesOnly</flattenMode>
+                            <pomElements>
+                                <parent>expand</parent>
+                                <distributionManagement>remove</distributionManagement>
+                                <repositories>remove</repositories>
+                                <build>remove</build>
+                            </pomElements>
+                        </configuration>
+                    </execution>
+                    <execution>
+                        <id>flatten-clean</id>
+                        <phase>clean</phase>
+                        <goals>
+                            <goal>clean</goal>
+                        </goals>
+                    </execution>
                 </executions>
             </plugin>
 
@@ -339,6 +363,34 @@
 
         </plugins>
     </build>
+
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>central</id>
+            <name>Central Repository</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+            <releases>
+                <updatePolicy>never</updatePolicy>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <repositories>
+        <repository>
+            <id>central</id>
+            <name>Central Repository</name>
+            <url>https://repo.maven.apache.org/maven2</url>
+            <layout>default</layout>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+        </repository>
+    </repositories>
 
     <profiles>
         <profile>
