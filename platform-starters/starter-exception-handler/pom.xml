@@ -5,7 +5,7 @@
     <parent>
         <groupId>br.com.dmsec</groupId>
         <artifactId>platform-starters</artifactId>
-        <version>0.3.0</version>
+        <version>${revision}</version>
     </parent>
 
     <artifactId>starter-exception-handler</artifactId>
@@ -20,7 +20,7 @@
         <dependency>
             <groupId>br.com.dmsec</groupId>
             <artifactId>starter-commons</artifactId>
-            <version>0.3.0</version>
+            <version>${revision}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>

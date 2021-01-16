@@ -5,37 +5,47 @@
     <parent>
         <groupId>br.com.dmsec</groupId>
         <artifactId>platform-starters</artifactId>
-        <version>${revision}</version>
+        <version>0.3.0</version>
     </parent>
 
-    <artifactId>starter-prometheus</artifactId>
-    <name>Starter Prometheus</name>
-    <description>Starter Prometheus</description>
-    <packaging>jar</packaging>
+    <artifactId>starter-feign</artifactId>
+    <name>Starter Feign</name>
+    <description>Starter Feign</description>
+
     <properties>
         <main.basedir>${basedir}/../../</main.basedir>
     </properties>
 
     <dependencies>
         <dependency>
-            <groupId>io.micrometer</groupId>
-            <artifactId>micrometer-core</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>io.micrometer</groupId>
-            <artifactId>micrometer-registry-prometheus</artifactId>
-        </dependency>
-
-
-        <dependency>
-            <groupId>io.micrometer</groupId>
-            <artifactId>micrometer-registry-cloudwatch</artifactId>
+            <groupId>br.com.dmsec</groupId>
+            <artifactId>starter-context</artifactId>
+            <version>0.3.0</version>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-aws</artifactId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-ribbon</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-jackson</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>io.github.openfeign</groupId>
+            <artifactId>feign-httpclient</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
         </dependency>
 
         <dependency>
@@ -46,7 +56,7 @@
         <dependency>
             <groupId>br.com.dmsec</groupId>
             <artifactId>starter-commons</artifactId>
-            <version>${revision}</version>
+            <version>0.3.0</version>
         </dependency>
 
     </dependencies>

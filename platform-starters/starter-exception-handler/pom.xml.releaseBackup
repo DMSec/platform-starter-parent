@@ -5,12 +5,12 @@
     <parent>
         <groupId>br.com.dmsec</groupId>
         <artifactId>platform-starters</artifactId>
-        <version>${revision}</version>
+        <version>0.3.0</version>
     </parent>
 
-    <artifactId>starter-context</artifactId>
-    <name>Starter Context</name>
-    <description>Starter Context</description>
+    <artifactId>starter-exception-handler</artifactId>
+    <name>Starter Exception Handler</name>
+    <description>Starter Exception Handler</description>
     <properties>
         <main.basedir>${basedir}/../../</main.basedir>
     </properties>
@@ -19,24 +19,34 @@
 
         <dependency>
             <groupId>br.com.dmsec</groupId>
-            <artifactId>starter-logging</artifactId>
-            <version>${revision}</version>
+            <artifactId>starter-commons</artifactId>
+            <version>0.3.0</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>javax.servlet</groupId>
-            <artifactId>javax.servlet-api</artifactId>
-            <optional>true</optional>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-webmvc</artifactId>
         </dependency>
 
         <dependency>
-            <groupId>io.opentracing.contrib</groupId>
-            <artifactId>opentracing-spring-cloud-starter</artifactId>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-annotations</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
         </dependency>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot</artifactId>
-            <optional>true</optional>
+            <artifactId>spring-boot-autoconfigure</artifactId>
         </dependency>
 
         <dependency>
