@@ -68,7 +68,7 @@
         <logback-json-classic.version>0.1.5</logback-json-classic.version>
         <logstash-logback-encoder.version>6.3</logstash-logback-encoder.version>
         <mockito-kotlin.version>2.2.0</mockito-kotlin.version>
-        <kotlin.version>1.4.30-M1</kotlin.version>
+        <kotlin.version>1.6.0-M1</kotlin.version>
 
         <maven-gpg-plugin.version />
         <nexus-staging-maven-plugin.version>1.6.7</nexus-staging-maven-plugin.version>
