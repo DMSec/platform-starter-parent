@@ -62,7 +62,7 @@
         <opentracing-aws-sdk-1.version>0.1.5</opentracing-aws-sdk-1.version>
 
         <project.build.sourceEnconding>UTF-8</project.build.sourceEnconding>
-        <org.json.version>20200518</org.json.version>
+        <org.json.version>20230227</org.json.version>
         <swagger.version>2.9.2</swagger.version>
         <logback-jackson.version>0.1.5</logback-jackson.version>
         <logback-json-classic.version>0.1.5</logback-json-classic.version>
